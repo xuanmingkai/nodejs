@@ -1,0 +1,53 @@
+body {
+	margin:auto;
+  font-family:Verdana;
+}
+#container {
+	margin:0 auto;
+	width:auto;
+}
+#header {
+	height:100px;
+	background:#6cf;
+	margin-bottom:5px;
+}
+#mainContent {
+	height:500px;
+	margin-bottom:5px;
+}
+#sidebar {
+	float:right;
+	width:300px;
+	height:400px;
+	background:#9ff;
+}
+#content {
+	margin-right:205px !important;
+	margin-right: 202px;
+	height:400px;
+	background:#cff;
+}
+#footer {
+	height:35px;
+	background:#6cf;
+}
+#control{
+	float: right;
+}
+#file1{
+	margin-right: 10px;
+	background: #cff;
+}
+#flash{
+	margin-right: 10px;
+	margin-top: 30px;
+
+	width:100px;
+	height:25px;
+}
+#text1{
+	margin-top: 30px;
+	margin-left: 40px;
+	width:300px;
+	height:300px;
+}

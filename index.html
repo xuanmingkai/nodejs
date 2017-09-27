@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+
+  <body>
+    <link href="css/progress.css" rel="stylesheet" type="text/css">
+    <link href="css/layout.css" rel="stylesheet" media="screen" type="text/css">
+
+    <div id="container">
+      <!--Header-->
+      <div id="header">This is the Header
+        <div id = "control">
+          <input type="file" id="file1"/>
+          <input type="button" id="flash" value="flash"/>
+        </div>
+      </div>
+      <!--MainContent-->
+      <div id="mainContect">
+        <div id="sidebar">This is the sidebar</div>
+        <div id="content">This is the content<br/>
+          <input id="text1" type="text" s/><br/>
+        </div>
+      </div>
+      <!--Footer-->
+      <div id="footer">This is the footer</div>
+    </div>
+
+    <script>
+       require('./js/index.js')
+    </script>
+  </body>
+</html>
+<!-- <h1>Hello World!</h1>
+All of the Node.js APIs are available in this renderer process.
+We are using node <script>document.write(process.versions.node)</script>,
+Chromium <script>document.write(process.versions.chrome)</script>,
+and Electron <script>document.write(process.versions.electron)</script>.<br/>
+<input type="button" id="btn" value="click"><br/>
+<input type="text" id="text1" name="text1"><br/> -->
+
+<!-- <div class="processcontainer">
+  <div id="processbar" style="width:0%;"></div>
+</div><br/> -->
