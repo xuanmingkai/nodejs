@@ -1,28 +1,14 @@
 {
-  "name": "electron-quick-start",
+  "name": "flashimage",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Flash Image",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "author": "Mingkai Xuan",
+  "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron": "^13.1.1"
   }
 }
